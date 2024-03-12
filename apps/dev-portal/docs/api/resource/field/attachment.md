@@ -231,3 +231,5 @@ curl -X PUT #BASE_URL/v1/app/1 \\
 }```
 
 ````
+## Attachment download
+Get the parent record of the attachment field via https://api.tapeapp.com/v1/record/{record_id}. Use the link stored in the 'view_url' of the record query response.
